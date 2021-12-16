@@ -1,0 +1,187 @@
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #d16adc;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding-right: 50px;
+}
+
+li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/*RESET*/
+
+/*HEADER*/
+header {
+    background-color: white;
+    font-size: larger;
+}
+
+.logo img {
+    height: 120px;
+    width: auto;
+}
+
+a:hover {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #d16adc;
+}
+
+a i {
+    font-size: 30px;
+    color: #d16adc;
+}
+
+.social {
+    padding-left: 10px;
+}
+/*HEADER*/
+
+/*MAIN*/
+
+.jumbotron {
+    background-image: url(../img/jumbotron.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% -134px;
+}
+
+.jumbotron .button {
+    padding-top: 30px;
+}
+
+.jumbotron .button button {
+    border: none;
+    padding: 40px 70px;
+    background-color: #d16adc;
+}
+
+.jumbotron .button button a {
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+
+.title {
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+}
+
+
+
+h1 {
+    font-size: 105px;
+    font-weight: 700;
+    padding-bottom: 8px;
+}
+
+p {
+    font-size: 30px;
+}
+
+h1, p {
+    color: white;
+}
+
+/*info section*/
+.info {
+    background-color: white;
+}
+
+.info h1 {
+    color: black;
+    font-size: 60px;
+    font-weight: 700;
+    padding-bottom: 8px;
+}
+
+.trattino {
+    height: 5px;
+    width: 100px;
+    background: #D16ADC;
+    display: block;
+    margin: 0 auto;
+}
+
+.info p {
+    padding-top: 7px;
+    font-size: 25px;
+    color: black;
+}
+/*info section*/
+
+/*tools section*/
+.tools {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #4142A3;
+}
+
+.card {
+    color: white;
+    text-align: center;
+    padding: 50px;
+    width: calc( 100% / 4 );
+}
+
+.card p {
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-img {
+    display: block;
+}
+
+.card-img img {
+    height: 60px;
+    width: auto;
+}
+/*tools section*/
+
+
+/*MAIN*/
+
+
+
